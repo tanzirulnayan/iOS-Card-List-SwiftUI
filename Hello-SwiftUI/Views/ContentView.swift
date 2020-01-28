@@ -12,7 +12,16 @@ struct ContentView: View {
     var body: some View {
         VStack {
             CardImageView()
-            Spacer()
+            List {
+                VideoRow()
+                VideoRow()
+                VideoRow()
+                VideoRow()
+                VideoRow()
+                VideoRow()
+                VideoRow()
+            }
+            
         }
     }
 }
