@@ -16,6 +16,7 @@
 		2264F21023E013BB00B74C94 /* Hello_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F20F23E013BB00B74C94 /* Hello_SwiftUITests.swift */; };
 		2264F21B23E013BB00B74C94 /* Hello_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F21A23E013BB00B74C94 /* Hello_SwiftUIUITests.swift */; };
 		2264F22A23E01A1400B74C94 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F22923E01A1400B74C94 /* CardImageView.swift */; };
+		2264F22C23E0271400B74C94 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F22B23E0271400B74C94 /* VideoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2264F21A23E013BB00B74C94 /* Hello_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		2264F21C23E013BB00B74C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2264F22923E01A1400B74C94 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		2264F22B23E0271400B74C94 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				2264F22923E01A1400B74C94 /* CardImageView.swift */,
 				2264F1FC23E013B800B74C94 /* ContentView.swift */,
+				2264F22B23E0271400B74C94 /* VideoRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				2264F1F923E013B800B74C94 /* AppDelegate.swift in Sources */,
 				2264F1FB23E013B800B74C94 /* SceneDelegate.swift in Sources */,
+				2264F22C23E0271400B74C94 /* VideoRow.swift in Sources */,
 				2264F22A23E01A1400B74C94 /* CardImageView.swift in Sources */,
 				2264F1FD23E013B800B74C94 /* ContentView.swift in Sources */,
 			);
