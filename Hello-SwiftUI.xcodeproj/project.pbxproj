@@ -15,6 +15,7 @@
 		2264F20523E013BB00B74C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2264F20323E013BB00B74C94 /* LaunchScreen.storyboard */; };
 		2264F21023E013BB00B74C94 /* Hello_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F20F23E013BB00B74C94 /* Hello_SwiftUITests.swift */; };
 		2264F21B23E013BB00B74C94 /* Hello_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F21A23E013BB00B74C94 /* Hello_SwiftUIUITests.swift */; };
+		2264F22A23E01A1400B74C94 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264F22923E01A1400B74C94 /* CardImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2264F21623E013BB00B74C94 /* Hello-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2264F21A23E013BB00B74C94 /* Hello_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		2264F21C23E013BB00B74C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2264F22923E01A1400B74C94 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		2264F1F723E013B800B74C94 /* Hello-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2264F22823E019B400B74C94 /* Views */,
 				2264F1F823E013B800B74C94 /* AppDelegate.swift */,
 				2264F1FA23E013B800B74C94 /* SceneDelegate.swift */,
-				2264F1FC23E013B800B74C94 /* ContentView.swift */,
 				2264F1FE23E013BB00B74C94 /* Assets.xcassets */,
 				2264F20323E013BB00B74C94 /* LaunchScreen.storyboard */,
 				2264F20623E013BB00B74C94 /* Info.plist */,
@@ -134,6 +136,15 @@
 				2264F21C23E013BB00B74C94 /* Info.plist */,
 			);
 			path = "Hello-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		2264F22823E019B400B74C94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2264F22923E01A1400B74C94 /* CardImageView.swift */,
+				2264F1FC23E013B800B74C94 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			files = (
 				2264F1F923E013B800B74C94 /* AppDelegate.swift in Sources */,
 				2264F1FB23E013B800B74C94 /* SceneDelegate.swift in Sources */,
+				2264F22A23E01A1400B74C94 /* CardImageView.swift in Sources */,
 				2264F1FD23E013B800B74C94 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
