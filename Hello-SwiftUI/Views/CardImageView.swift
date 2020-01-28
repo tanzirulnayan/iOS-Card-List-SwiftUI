@@ -12,7 +12,10 @@ struct CardImageView: View {
     var body: some View {
         Image("mojave")
         .resizable()
-            .aspectRatio(CGSize(width:))
+        .aspectRatio(CGSize(width:16, height:9), contentMode: .fit)
+        .cornerRadius(10)
+        .padding(10)
+            .shadow(radius: 5)
     }
 }
 
